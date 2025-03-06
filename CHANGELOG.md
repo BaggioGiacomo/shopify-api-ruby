@@ -4,6 +4,7 @@ Note: For changes to the API, see https://shopify.dev/changelog?filter=api
 ## Unreleased
 
 - [#1362](https://github.com/Shopify/shopify-api-ruby/pull/1362) Add support for client credentials grant
+- [#1366](https://github.com/Shopify/shopify-api-ruby/pull/1366) Add support for release candidate API versions
 
 ## 14.8.0
 
