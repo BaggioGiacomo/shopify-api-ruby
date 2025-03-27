@@ -47,7 +47,7 @@ module ShopifyAPI
 
           query_string = URI.encode_www_form(query)
 
-          auth_route = "https://#{shop}/admin/oauth/authorize?#{query_string}"
+          auth_route = "https://#{shop.sub(".my.shop.dev", ".dev-api.shop.dev")}/admin/oauth/authorize?#{query_string}"
           { auth_route: auth_route, cookie: cookie }
         end
 
